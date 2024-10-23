@@ -77,10 +77,5 @@ namespace GameApp.Repository
                 throw;
             }
         }
-
-        public async Task<int> GetCountAsync()
-        {
-            return await _context.Games.CountAsync();
-        }
     }
 }
